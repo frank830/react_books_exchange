@@ -13,6 +13,8 @@ const sideDrawer = (props) => {
         attachedClasses = [classes.SideDrawer, classes.Open];
     }
 
+    const mode = 'SideDrawer';
+
     return(
         <Aux>
             {/* <Model /> */}
@@ -20,7 +22,7 @@ const sideDrawer = (props) => {
             <div className={attachedClasses.join(' ')}>
                 <Logo />
                 <nav>
-                    <NavigationItems />
+                    <NavigationItems mode={mode}/>
                 </nav>
             </div>
         </Aux>

@@ -19,6 +19,34 @@
     color: #40A4C8;
 }
 
+
+.SideDrawer {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.SideDrawer a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.SideDrawer a:hover,
+.SideDrawer a:active,
+.SideDrawer a.active {
+    background-color: #8F5C2C;
+    border-bottom: 4px solid #40A4C8;
+    color: white;
+}
+
+
+
+
+
 @media (min-width: 500px) {
     .NavigationItem {
         margin: 0;
@@ -43,3 +71,4 @@
         color: white;
     }
 }
+
